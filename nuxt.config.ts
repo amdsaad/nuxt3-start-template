@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint'],
+  modules: ['@nuxt/eslint', '@nuxt/image'],
   devtools: { enabled: true },
   compatibilityDate: '2024-11-01',
   eslint: {
@@ -9,4 +9,9 @@ export default defineNuxtConfig({
     },
     checker: true,
   },
+  image: {
+    quality: 80,
+    format: ['webp'],
+  },
+
 })
