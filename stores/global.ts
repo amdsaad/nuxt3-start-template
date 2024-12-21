@@ -1,4 +1,3 @@
-
 import { defineStore } from 'pinia'
 
 export const useMyGlobalStore = defineStore('global', () => {
@@ -10,5 +9,5 @@ export const useMyGlobalStore = defineStore('global', () => {
   return {
     count,
     increment,
-  };
-});
+  }
+})
