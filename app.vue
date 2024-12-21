@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>Hello There</h1>
-    <SharedTheCount />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
