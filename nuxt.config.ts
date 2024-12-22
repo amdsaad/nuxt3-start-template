@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
     '@nuxt/fonts',
+    '@nuxtjs/i18n',
   ],
   devtools: { enabled: true },
   compatibilityDate: '2024-11-01',
@@ -25,9 +26,14 @@ export default defineNuxtConfig({
       },
     ],
   },
+  i18n: {
+    locales: [
+      { code: 'en', language: 'en-US' },
+    ],
+    defaultLocale: 'en',
+  },
   image: {
     quality: 80,
     format: ['webp'],
   },
-
 })

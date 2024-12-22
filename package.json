@@ -15,10 +15,11 @@
     "@nuxt/eslint": "0.7.4",
     "@nuxt/fonts": "^0.10.3",
     "@nuxt/image": "1.8.1",
+    "@nuxtjs/i18n": "^9.1.1",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@pinia/nuxt": "^0.9.0",
     "eslint": "^8.57.0 || ^9.0.0",
-    "nuxt": "^3.14.1592",
+    "nuxt": "3.14.0",
     "pinia": "^2.3.0",
     "vue": "latest",
     "vue-router": "latest"
