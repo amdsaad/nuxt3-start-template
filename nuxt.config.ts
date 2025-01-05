@@ -8,9 +8,29 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxtjs/i18n',
     '@dargmuesli/nuxt-cookie-control',
+    '@nuxtjs/strapi',
   ],
   devtools: { enabled: false },
   css: ['~/assets/css/tailwind.css'],
+  runtimeConfig: {
+    token: process.env.Token,
+    recaptchaSecret: process.env.RECAPTCHA_SECRET,
+    strapi: {
+      url: process.env.STRAPI_URL || 'http://localhost:1337',
+    },
+    provider: {
+      url: process.env.PROVIDER_URL || 'http://localhost:1337',
+    },
+    public: {
+      recaptchaSiteKey: process.env.RECAPTCHA_SITE_KEY,
+      strapi: {
+        url: process.env.STRAPI_URL || 'http://localhost:1337',
+      },
+      provider: {
+        url: process.env.PROVIDER_URL || 'http://localhost:1337',
+      },
+    },
+  },
   compatibilityDate: '2024-11-01',
   cookieControl: {
     /**
