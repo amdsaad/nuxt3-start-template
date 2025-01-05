@@ -9,9 +9,17 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@dargmuesli/nuxt-cookie-control',
     '@nuxtjs/strapi',
+    '@nuxtjs/seo',
   ],
+  plugins: ['~/plugins/recaptcha.client.ts'],
   devtools: { enabled: false },
   css: ['~/assets/css/tailwind.css'],
+  site: {
+    url: '',
+    name: '',
+    description: '',
+    defaultLocale: 'en',
+  },
   runtimeConfig: {
     token: process.env.Token,
     recaptchaSecret: process.env.RECAPTCHA_SECRET,
@@ -140,5 +148,17 @@ export default defineNuxtConfig({
   image: {
     quality: 80,
     format: ['webp'],
+  },
+  sitemap: {
+    // exclude all URLs that start with /secret
+    exclude: [
+      '/admin-post/**',
+      '/get-access/**',
+      '/admin/**',
+      '/api/**',
+      '/_nuxt/**',
+      '/auth/**',
+    ],
+    sources: ['/api/__sitemap__/urls'],
   },
 })
