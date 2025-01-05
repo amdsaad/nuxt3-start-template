@@ -1,75 +1,75 @@
-# Nuxt Minimal Starter
+# Nuxt 3 Start Template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a starter template for Nuxt 3 projects. It provides a basic structure to quickly get started with your Nuxt 3 application.
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+- Nuxt 3
+- Tailwind CSS
+- ESLint
+- Prettier
+- Strapi JS
+- GSAP
+- cookie-control
+- Google Recaptcha
+- Pinia
+
+
+### Prerequisites
+
+- Node.js (>= 20.0.0)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/nuxt3-start-template.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd nuxt3-start-template
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+### Development
+
+To start the development server, run:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
+# or
 yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+### Build
 
-Build the application for production:
+To build the project for production, run:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
+# or
 yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+### Deployment
 
-```bash
-# npm
-npm run preview
+After building the project, you can deploy the contents of the `dist` directory to your preferred hosting service.
 
-# pnpm
-pnpm preview
+## Contributing
 
-# yarn
-yarn preview
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
 
-# bun
-bun run preview
-```
+## License
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is licensed under the MIT License.
