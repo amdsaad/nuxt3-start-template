@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     '@nuxtjs/strapi',
     '@nuxtjs/seo',
     'nuxt-gtag',
+    'nuxt-swiper',
   ],
   plugins: ['~/plugins/recaptcha.client.ts'],
   devtools: { enabled: false },
