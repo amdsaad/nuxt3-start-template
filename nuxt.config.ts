@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@dargmuesli/nuxt-cookie-control',
     '@nuxtjs/strapi',
     '@nuxtjs/seo',
+    'nuxt-gtag',
   ],
   plugins: ['~/plugins/recaptcha.client.ts'],
   devtools: { enabled: false },
@@ -41,10 +42,6 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2024-11-01',
   cookieControl: {
-    /**
-     * 1) This must match the locale codes you use in Nuxt i18n:
-     *    e.g. i18n: { locales: [{ code: 'en' }, { code: 'ar' }] }
-     */
     locales: ['en', 'ar'],
     localeTexts: {
       en: {
@@ -84,33 +81,24 @@ export default defineNuxtConfig({
         here: 'هنا',
       },
     },
-
-    /**
-     * 3) Other core options from the schema
-     */
     barPosition: 'bottom-full', // or 'top-left', 'bottom-right', etc.
     closeModalOnClickOutside: true,
     colors: {
       barTextColor: '#fff',
       barBackground: '#000',
-      // You can define more color keys if needed
     },
     cookieNameCookiesEnabledIds: 'ncc_e',
     cookieNameIsConsentGiven: 'ncc_c',
 
-    // Example: no necessary or optional cookies defined (customize as you wish)
     cookies: {
       necessary: [
         {
-          // Use the same name as the cookie Nuxt i18n sets
           id: 'i18n_redirected',
           name: { en: 'i18n Redirect', ar: 'تحويل اللغة' },
           description: {
             en: 'Stores the last selected language for this site.',
             ar: 'يخزن اللغة الأخيرة المختارة لهذا الموقع.',
           },
-          // No script "src" needed because this cookie is set by Nuxt i18n
-          // noAllow: true or disabled: true is implied if it's "necessary"
         },
       ],
       optional: [],
@@ -140,6 +128,9 @@ export default defineNuxtConfig({
         provider: 'google',
       },
     ],
+  },
+  gtag: {
+    id: 'G-XXXXXXXXXX'
   },
   i18n: {
     locales: [{ code: 'en', language: 'en-US' }],

@@ -5770,6 +5770,16 @@ nuxi@^3.17.2:
   resolved "https://registry.yarnpkg.com/nuxi/-/nuxi-3.17.2.tgz#72cad260a8c332cae053b9ca588328138efcfa73"
   integrity sha512-JDVtBBwEe9VjVkhxwR/crtGJnyLHzvl2F1pjtglekjTVeiMThfhQHcvsI/u007gBAfPpmaCIdRGnoeTF4VKS8w==
 
+nuxt-gtag@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/nuxt-gtag/-/nuxt-gtag-3.0.2.tgz#1ea9f2ae747ef46fcf85debdff9c4e40535725b3"
+  integrity sha512-0Spu/rffPxW7REebkjE22qQOuVZIQuyIuvd61InDdJU+d+gRIqWhrUuKBWdk43N/J1elj+cTK2kEdk5FQX7vdQ==
+  dependencies:
+    "@nuxt/kit" "^3.14.1592"
+    defu "^6.1.4"
+    pathe "^1.1.2"
+    ufo "^1.5.4"
+
 nuxt-link-checker@^4.0.0:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/nuxt-link-checker/-/nuxt-link-checker-4.0.4.tgz#3fa1b8c30a34c6aef75e0a6aa68ec3c9c60c6a60"
