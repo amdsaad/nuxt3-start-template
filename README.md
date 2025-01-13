@@ -25,7 +25,7 @@ This is a starter template for Nuxt 3 projects. It provides a basic structure to
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/nuxt3-start-template.git
+    git clone git@github.com:amdsaad/nuxt3-start-template.git
     ```
 
 2. Navigate to the project directory:
