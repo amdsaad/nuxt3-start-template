@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cookieControl__ControlButton {
+  display: none;
+}
