@@ -9,5 +9,6 @@ export default withNuxt({
     '@stylistic/brace-style': 'off',
     '@stylistic/comma-dangle': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    '@stylistic/operator-linebreak': 'off',
   },
 })
