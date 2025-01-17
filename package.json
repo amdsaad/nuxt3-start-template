@@ -18,7 +18,6 @@
     "@nuxt/image": "1.8.1",
     "@nuxtjs/i18n": "9.1.1",
     "@nuxtjs/seo": "2.0.2",
-    "@nuxtjs/strapi": "2.0.0",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@pinia/nuxt": "^0.9.0",
     "@types/qs": "^6.9.17",

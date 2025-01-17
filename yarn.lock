@@ -1390,17 +1390,6 @@
     sirv "^3.0.0"
     ufo "^1.5.4"
 
-"@nuxtjs/strapi@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/strapi/-/strapi-2.0.0.tgz#2732642fbdb50f8ccb78ec9482cbcdeac2a4e841"
-  integrity sha512-6Q34PQd980ruBTaMzVx23V/GP3YeoqWt9NKxVG79d1TJMwpKHCkFqZEN5jI/2csMyncYuzP4ozt2lIi5JYTudA==
-  dependencies:
-    "@nuxt/kit" "^3.13.2"
-    defu "^6.1.4"
-    graphql "^16.9.0"
-    qs "^6.13.0"
-    ufo "^1.5.4"
-
 "@nuxtjs/tailwindcss@^6.12.2":
   version "6.12.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-6.12.2.tgz#3fa41b0b9361cd69ec14934f800e66225b3c9e1f"
@@ -4465,11 +4454,6 @@ graphemer@^1.4.0:
   resolved "https://registry.yarnpkg.com/graphemer/-/graphemer-1.4.0.tgz#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
-graphql@^16.9.0:
-  version "16.10.0"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.10.0.tgz#24c01ae0af6b11ea87bf55694429198aaa8e220c"
-  integrity sha512-AjqGKbDGUFRKIRCP9tCKiIGHyriz2oHEbPIbEtcSLSs4YjReZOIPQQWek4+6hjw62H9QShXHyaGivGiYVLeYFQ==
-
 gzip-size@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-7.0.0.tgz#9f9644251f15bc78460fccef4055ae5a5562ac60"
@@ -6765,7 +6749,7 @@ punycode@^2.1.0, punycode@^2.3.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.1.tgz#027422e2faec0b25e1549c3e1bd8309b9133b6e5"
   integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
 
-qs@^6.13.0, qs@^6.13.1:
+qs@^6.13.1:
   version "6.13.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.13.1.tgz#3ce5fc72bd3a8171b85c99b93c65dd20b7d1b16e"
   integrity sha512-EJPeIn0CYrGu+hli1xilKAPXODtJ12T0sP63Ijx2/khC2JtuaN3JyNIpvmnkmaEtha9ocbG4A4cMcr+TvqvwQg==

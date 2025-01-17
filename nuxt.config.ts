@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxtjs/i18n',
     '@dargmuesli/nuxt-cookie-control',
-    '@nuxtjs/strapi',
     '@nuxtjs/seo',
     'nuxt-gtag',
     'nuxt-swiper',
@@ -25,17 +24,11 @@ export default defineNuxtConfig({
   runtimeConfig: {
     token: process.env.Token,
     recaptchaSecret: process.env.RECAPTCHA_SECRET,
-    strapi: {
-      url: process.env.STRAPI_URL || 'http://localhost:1337',
-    },
     provider: {
       url: process.env.PROVIDER_URL || 'http://localhost:1337',
     },
     public: {
       recaptchaSiteKey: process.env.RECAPTCHA_SITE_KEY,
-      strapi: {
-        url: process.env.STRAPI_URL || 'http://localhost:1337',
-      },
       provider: {
         url: process.env.PROVIDER_URL || 'http://localhost:1337',
       },
@@ -131,7 +124,7 @@ export default defineNuxtConfig({
     ],
   },
   gtag: {
-    id: 'G-XXXXXXXXXX'
+    id: 'G-XXXXXXXXXX',
   },
   i18n: {
     locales: [{ code: 'en', language: 'en-US' }],
