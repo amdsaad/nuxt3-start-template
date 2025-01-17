@@ -1,9 +1,9 @@
 <template>
-  <div class="container bg-red-500">
-    hello from Home page
+  <div class="container mx-auto min-h-screen flex items-center justify-center ">
+    <p>this is the home page</p>
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script setup></script>
 
 <style></style>
